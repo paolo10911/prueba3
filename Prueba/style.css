@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button,select{
+    margin: 10px;
+}
+
+input{
+    font-size: 25px;
+    margin: 10px;
+    outline: none;
+}
+
+label:focus{
+    transform: translateY(-12px) scale(.7);
+}
+
+small{
+    color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
